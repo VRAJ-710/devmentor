@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevMentor - Your AI Pair Programming Partner</title>
+    <meta name="description" content="Never code alone again. DevMentor is an AI pair programmer that teaches like a senior developer - asking questions, catching mistakes proactively, and adapting to your learning style.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span class="logo-text">DevMentor</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#demo" class="nav-link">Demo</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#github" class="btn btn-primary">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Student Track - AI for Learning & Developer Productivity</span>
+                </div>
+                <h1 class="hero-title">
+                    Never Code <span class="highlight">Alone</span> Again
+                </h1>
+                <p class="hero-subtitle">
+                    Your AI pair programmer that teaches like a senior developer - 
+                    asking <em>you</em> questions, catching mistakes <em>before</em> you make them, 
+                    and adapting to your learning style in real-time.
+                </p>
+                <div class="hero-cta">
+                    <a href="#demo" class="btn btn-large btn-primary">
+                        Try Live Demo
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#about" class="btn btn-large btn-secondary">
+                        Learn More
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Specialized AI Agents</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Common Mistakes Caught</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Real-time</div>
+                        <div class="stat-label">Pair Programming</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Problem</span>
+                <h2 class="section-title">Learning to Code is Hard. Learning Alone is Harder.</h2>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">😔</div>
+                    <h3>80% Learn Solo</h3>
+                    <p>Most aspiring developers don't have access to mentors or peers to learn with</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📺</div>
+                    <h3>Passive Tutorials</h3>
+                    <p>Watch, copy-paste, forget. You don't develop real problem-solving skills</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🚫</div>
+                    <h3>When You're Stuck, You're Stuck</h3>
+                    <p>No one to ask at 11 PM when your code won't work and you don't know why</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution -->
+    <section class="solution">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <span class="section-tag">Our Innovation</span>
+                    <h2 class="section-title">Multi-Agent AI That Teaches Like a Senior Dev</h2>
+                    <p class="solution-description">
+                        DevMentor doesn't just answer questions - it's an active pair programming partner 
+                        with three specialized AI agents that guide you through problems, catch mistakes 
+                        proactively, and adapt to how you learn best.
+                    </p>
+                    <div class="solution-features">
+                        <div class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Asks YOU guiding questions (Socratic method)</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Catches mistakes BEFORE you run code</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Teaches debugging methodology, not just fixes bugs</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Adapts to your learning style in real-time</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-visual">
+                    <div class="agent-showcase">
+                        <div class="agent-card agent-teacher">
+                            <div class="agent-header">
+                                <div class="agent-avatar">🧑‍🏫</div>
+                                <div class="agent-info">
+                                    <div class="agent-name">Teacher Agent</div>
+                                    <div class="agent-role">Socratic Method</div>
+                                </div>
+                            </div>
+                            <div class="agent-message">
+                                "Great question! Before I help, can you tell me what approaches you've thought about?"
+                            </div>
+                        </div>
+                        <div class="agent-card agent-reviewer">
+                            <div class="agent-header">
+                                <div class="agent-avatar">👨‍💻</div>
+                                <div class="agent-info">
+                                    <div class="agent-name">Code Review Agent</div>
+                                    <div class="agent-role">Real-Time Feedback</div>
+                                </div>
+                            </div>
+                            <div class="agent-message">
+                                "⚠️ Quick thought: before you continue, what's your plan for handling negative numbers?"
+                            </div>
+                        </div>
+                        <div class="agent-card agent-debugger">
+                            <div class="agent-header">
+                                <div class="agent-avatar">🔍</div>
+                                <div class="agent-info">
+                                    <div class="agent-name">Debugging Agent</div>
+                                    <div class="agent-role">Methodology Teacher</div>
+                                </div>
+                            </div>
+                            <div class="agent-message">
+                                "Let's debug this together. First question: Did you add a return statement?"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Live Demo</span>
+                <h2 class="section-title">See DevMentor in Action</h2>
+                <p class="section-description">Try writing code and watch how our AI agents guide you through the process</p>
+            </div>
+            
+            <div class="demo-container">
+                <div class="demo-editor">
+                    <div class="editor-header">
+                        <div class="editor-tabs">
+                            <div class="editor-tab active">
+                                <span>main.py</span>
+                            </div>
+                        </div>
+                        <div class="editor-actions">
+                            <button class="btn-icon" id="runCode">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3 2L13 8L3 14V2Z" fill="currentColor"/>
+                                </svg>
+                                Run
+                            </button>
+                            <button class="btn-icon" id="explainCode">
+                                💡 Explain
+                            </button>
+                        </div>
+                    </div>
+                    <div class="editor-content">
+                        <textarea id="codeEditor" spellcheck="false"># Try writing a function to reverse a string
+# DevMentor will guide you!
+
+def reverse_string(text):
+    # Start coding here...</textarea>
+                    </div>
+                    <div class="editor-footer">
+                        <div class="editor-status">
+                            <span class="status-dot"></span>
+                            <span>Python 3.11</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="demo-chat">
+                    <div class="chat-header">
+                        <h3>AI Agents</h3>
+                        <div class="chat-status">
+                            <span class="status-online"></span>
+                            <span>3 agents active</span>
+                        </div>
+                    </div>
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="chat-message agent-teacher">
+                            <div class="message-avatar">🧑‍🏫</div>
+                            <div class="message-content">
+                                <div class="message-header">
+                                    <span class="message-name">Teacher Agent</span>
+                                    <span class="message-time">Just now</span>
+                                </div>
+                                <div class="message-text">
+                                    Welcome! I see you're working on reversing a string. Before we dive into code, 
+                                    can you explain to me: What does "reverse" mean in this context? What should 
+                                    the output look like?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" placeholder="Ask a question or explain your thinking..." id="userInput">
+                        <button class="btn-send" id="sendMessage">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M2 10L18 2L10 18L8 11L2 10Z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Key Features</span>
+                <h2 class="section-title">What Makes DevMentor Different</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Proactive Mistake Prevention</h3>
+                    <p>Our AI catches common errors before you run your code - like shadowing built-in types, missing colons, or infinite loops.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Adaptive Learning</h3>
+                    <p>Detects your learning style and adjusts responses - whether you need step-by-step guidance or just gentle hints.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Socratic Teaching</h3>
+                    <p>Like a great teacher, DevMentor asks YOU questions to help you think through problems, not just hand you solutions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-Time Feedback</h3>
+                    <p>Get instant guidance as you type - no need to wait until you're stuck to get help.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Progress Tracking</h3>
+                    <p>Visual skill tree shows what you've mastered and recommends what to learn next.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Privacy First</h3>
+                    <p>Your code never leaves your session. We don't store or train on your work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="comparison">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why DevMentor</span>
+                <h2 class="section-title">Beyond Traditional Learning Tools</h2>
+            </div>
+            <div class="comparison-table">
+                <div class="comparison-header">
+                    <div class="comparison-col"></div>
+                    <div class="comparison-col">Traditional AI Tools</div>
+                    <div class="comparison-col highlight">DevMentor</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-col feature">Teaching Approach</div>
+                    <div class="comparison-col">Passive Q&A</div>
+                    <div class="comparison-col highlight">Active pair programming</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-col feature">Response Style</div>
+                    <div class="comparison-col">Gives direct answers</div>
+                    <div class="comparison-col highlight">Asks guiding questions</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-col feature">Error Detection</div>
+                    <div class="comparison-col">After you're stuck</div>
+                    <div class="comparison-col highlight">Before you make mistakes</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-col feature">Personalization</div>
+                    <div class="comparison-col">One-size-fits-all</div>
+                    <div class="comparison-col highlight">Adapts to learning style</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-col feature">Architecture</div>
+                    <div class="comparison-col">Single AI model</div>
+                    <div class="comparison-col highlight">Multi-agent system</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="tech">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technology</span>
+                <h2 class="section-title">Built With Modern Stack</h2>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M2 17L12 22L22 17M2 12L12 17L22 12" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <span>Claude API</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">⚛️</div>
+                    <span>React</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">📝</div>
+                    <span>TypeScript</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">🟢</div>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">🐘</div>
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">🔌</div>
+                    <span>WebSocket</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-tag">About DevMentor</span>
+                    <h2 class="section-title">Built by Learners, For Learners</h2>
+                    <p>
+                        DevMentor was born from personal experience - the frustration of learning to code alone, 
+                        late at night, with no one to ask for help. We realized that the best learning happens 
+                        through conversation and guided discovery, not passive consumption.
+                    </p>
+                    <p>
+                        By combining multi-agent AI architecture with proven teaching methodologies like the 
+                        Socratic method, we've created something unique: an AI that doesn't just know the answer, 
+                        but knows how to help YOU figure it out.
+                    </p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <div class="about-stat-icon">🎓</div>
+                            <div class="about-stat-text">
+                                <div class="about-stat-number">80%</div>
+                                <div class="about-stat-label">of developers learn solo</div>
+                            </div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat-icon">💡</div>
+                            <div class="about-stat-text">
+                                <div class="about-stat-number">3x faster</div>
+                                <div class="about-stat-label">learning with guided practice</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card">
+                        <h3>Our Mission</h3>
+                        <p>Democratize access to high-quality programming mentorship through AI that teaches the way humans learn best.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>The Vision</h3>
+                        <p>A world where anyone, anywhere can learn to code with the same quality of guidance as if they had a senior developer by their side.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Never Code Alone?</h2>
+                <p class="cta-description">Join us in revolutionizing how people learn to code</p>
+                <div class="cta-buttons">
+                    <a href="#demo" class="btn btn-large btn-white">Try Live Demo</a>
+                    <a href="https://github.com" class="btn btn-large btn-outline" id="github">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="logo-text">DevMentor</span>
+                    </div>
+                    <p class="footer-description">Your AI pair programmer that teaches like a senior developer</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#demo">Demo</a>
+                        <a href="#about">About</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Hackathon</h4>
+                        <a href="#">Student Track</a>
+                        <a href="#">Requirements</a>
+                        <a href="#">Design Docs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DevMentor. Built for Anthropic Hackathon - Student Track: AI for Learning & Developer Productivity</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
