@@ -6,7 +6,7 @@
 
 **Never code alone again.** DevMentor is your AI pair programmer that teaches like a senior developer - asking *you* questions, catching mistakes *before* you make them, and adapting to your learning style in real-time.
 
-[🌐 Live Demo](#) | [📖 Documentation](#features) | [🎥 Demo Video](#)
+[🌐 Live Demo](https://VRAJ-710.github.io/devmentor/) [📖 Documentation](#features) | [🎥 Demo Video](#)
 
 ---
 
